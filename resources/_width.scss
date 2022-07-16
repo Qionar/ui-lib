@@ -1,0 +1,55 @@
+@for $i from 1 through 100 {
+    .w-#{$i * 1} {
+        width: #{$i * 1%};
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    @for $i from 1 through 100 {
+        .w-xsm-#{$i * 1} {
+            width: #{$i * 1%};
+        }
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    @for $i from 1 through 100 {
+        .w-sm-#{$i * 1} {
+            width: #{$i * 1%};
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    @for $i from 1 through 100 {
+        .w-md-#{$i * 1} {
+            width: #{$i * 1%};
+        }
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 11000px) {
+    @for $i from 1 through 100 {
+        .w-lg-#{$i * 1} {
+            width: #{$i * 1%};
+        }
+    }
+}
+
+@media screen and (min-width: 11000px) and (max-width: 1400px) {
+    @for $i from 1 through 100 {
+        .w-el-#{$i * 1} {
+            width: #{$i * 1%};
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    @for $i from 1 through 100 {
+
+        .w-xxl-#{$i * 1} {
+            width: #{$i * 1%};
+        }
+    }
+}

@@ -1,0 +1,29 @@
+$font-stack: Nunito;
+$primary-color: rgb(20, 20, 20);
+$primary-color-muted: rgb(20, 20, 20, 0.5);
+
+@import 'reset';
+@import 'helpers';
+@import 'containers';
+@import 'cards';
+@import 'width';
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: $font-stack;
+    color: $primary-color;
+    background: rgb(244, 244, 244);
+}
+
+.shadow {
+    -webkit-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    ;
+}
+
+.text-muted {
+    color: $primary-color-muted;
+}
