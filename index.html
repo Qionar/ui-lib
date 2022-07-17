@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="cards-container">
-        <div class="card w-20 w-xsm-100 shadow">
+        <div class="card w-20 w-xsm-100 w-sm-77 shadow">
             <p class="card-title">
                 Title
             </p>
@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        <div class="image-card w-20 w-xsm-100 shadow">
+        <div class="card-image w-20 w-xsm-100 shadow">
             <img src="./img/ladybug-g68a8d069f_1920.jpg" alt="" class="card-img">
             <div class="card-info">
                 <p class="card-title">
@@ -98,77 +98,143 @@
                 </div>
             </div>
         </div>
-        <div class="card w-70 shadow">
-            <p class="card-title">
-                Title
-            </p>
-            <div class="card-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quidem molestiae, natus voluptatum totam deleniti? Iste, dolorem praesentium sed voluptate minus cumque esse magni, saepe nesciunt impedit consectetur optio quod?
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa eligendi ea eius obcaecati velit doloribus commodi culpa laudantium repellat enim quas nihil repudiandae facere, iure nam sint aliquid, facilis voluptates.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas delectus, sunt optio sequi perspiciatis aspernatur aliquid, deleniti magni ipsa doloremque nostrum excepturi numquam alias corporis ab asperiores eligendi id! Quam.
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis ad impedit debitis quae alias, mollitia blanditiis odio numquam deserunt ducimus aspernatur amet unde, voluptate aut a rerum, vel id iusto!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sit vero maxime nesciunt officiis voluptas, minus quo excepturi voluptatibus numquam magnam amet quos adipisci expedita laborum alias at. Maiores, qui.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum autem laborum, ea eveniet odio quos vel facere architecto suscipit animi voluptas temporibus placeat praesentium ipsam reiciendis, optio reprehenderit similique adipisci!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis facilis maiores doloremque rem autem soluta deleniti eos corrupti. Eius enim ipsum autem rem facere ratione inventore sequi molestiae. Exercitationem, quibusdam.
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa eligendi ea eius obcaecati velit doloribus commodi culpa laudantium repellat enim quas nihil repudiandae facere, iure nam sint aliquid, facilis voluptates.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas delectus, sunt optio sequi perspiciatis aspernatur aliquid, deleniti magni ipsa doloremque nostrum excepturi numquam alias corporis ab asperiores eligendi id! Quam.
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis ad impedit debitis quae alias, mollitia blanditiis odio numquam deserunt ducimus aspernatur amet unde, voluptate aut a rerum, vel id iusto!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sit vero maxime nesciunt officiis voluptas, minus quo excepturi voluptatibus numquam magnam amet quos adipisci expedita laborum alias at. Maiores, qui.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, inventore, facere nisi laboriosam error eaque tempore ea laudantium hic quisquam ad velit numquam praesentium minus aut nam. Alias, doloremque voluptatem.
-                <a href="" class="card-link text-right">
-                    Show more...
-                </a>
-            </div>
-            <div class="card-footer text-muted d-flex">
-                <div class="w-50">
-                    12.02.2020
-                </div>
-                <div class="w-50 text-right">
-                    Qionar
+        <div class="card-statistics shadow w-20">
+            <div class="card-header">
+                <p class="card-title">
+                    Title
+                </p>
+                <div class="card-filters">
+                    <a href="#" id="myChart3mFilter" class="card-filter">3m.</a>
+                    <a href="#" id="myChart7mFilter" class="card-filter">7m.</a>
                 </div>
             </div>
+            <canvas id="myChart"></canvas>
         </div>
-        <div class="card-group w-29">
-            <div class="card w-100 shadow">
+        <div class="card-statistics w-15">
+            <div class="card-header">
                 <p class="card-title">
                     Title
                 </p>
-                <div class="card-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quidem molestiae, natus voluptatum totam deleniti? Iste, dolorem praesentium sed voluptate minus cumque esse magni, saepe nesciunt impedit consectetur optio quod?
-                    <a href="" class="card-link text-right">
-                        Show more...
-                    </a>
-                </div>
-                <div class="card-footer text-muted d-flex">
-                    <div class="w-50">
-                        12.02.2020
-                    </div>
-                    <div class="w-50 text-right">
-                        Qionar
-                    </div>
+                <div class="card-filters">
+                    <a href="#" class="card-filter">7d.</a>
+                    <a href="#" class="card-filter">30d.</a>
                 </div>
             </div>
-            <div class="card w-100 shadow">
+            <canvas class="mx-auto w-70" id="myChart2"></canvas>
+        </div>
+        <div class="card-statistics w-20">
+            <div class="card-header">
                 <p class="card-title">
                     Title
                 </p>
-                <div class="card-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quidem molestiae, natus voluptatum totam deleniti? Iste, dolorem praesentium sed voluptate minus cumque esse magni, saepe nesciunt impedit consectetur optio quod?
-                    <a href="" class="card-link text-right">
-                        Show more...
-                    </a>
-                </div>
-                <div class="card-footer text-muted d-flex">
-                    <div class="w-50">
-                        12.02.2020
-                    </div>
-                    <div class="w-50 text-right">
-                        Qionar
-                    </div>
+                <div class="card-filters">
+                    <a href="#" class="card-filter">7d.</a>
+                    <a href="#" class="card-filter">30d.</a>
                 </div>
             </div>
+            <canvas id="myChart3"></canvas>
         </div>
     </div>
-    
 </body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+<script src="./js/charts-handler.js"></script>
+<script>
+    let chartsHandler = new ChartsInit(
+        [
+            {
+                name: 'mainChart',
+                type: 'line',
+                domElement: document.querySelector('#myChart'),
+                datasets: [{
+                    label: 'My First dataset',
+                    fill: true,
+                    backgroundColor: 'rgb(255, 99, 132)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: [0, 10, 5, 2, 20, 30, 45],
+                },
+                {
+                    label: 'My Second dataset',
+                    fill: true,
+                    backgroundColor: 'rgb(255, 0, 0)',
+                    borderColor: 'rgb(255, 0, 0)',
+                    data: [0, 10, 5, 10, 20, 100, 100],
+                }    
+                ],
+                labels: [
+                    'January',
+                    'February',
+                    'March',
+                    'April',
+                    'May',
+                    'June',
+                    'July',
+                ],
+                filters: [
+                    {
+                        domElement: document.querySelector('#myChart3mFilter'),
+                        datasets: [
+                            {
+                                data: [0, 10, 50] 
+                            },
+                            {
+                                data: [2, 30, 3]
+                            }
+                        ],
+                        labels: [
+                            'January',
+                            'February',
+                            'March', 
+                        ]
+                    },
+                    {
+                        domElement: document.querySelector('#myChart7mFilter'),
+                        returnDefault: true
+                    }
+                ]
+            },
+            {
+                name: 'mainChart2',
+                type: 'pie',
+                domElement: document.querySelector('#myChart2'),
+                datasets: [{
+                    label: 'My First Dataset',
+                    data: [300, 50, 100],
+                    backgroundColor: [
+                    'rgb(255, 99, 132)',
+                    'rgb(54, 162, 235)',
+                    'rgb(255, 205, 86)'
+                    ],
+                    hoverOffset: 4
+                }],
+                labels: [
+                    'Red',
+                    'Blue',
+                    'Yellow'
+                ],
+            },
+            {
+                name: 'mainChart3',
+                type: 'bar',
+                domElement: document.querySelector('#myChart3'),
+                datasets: [{
+                    label: 'My First Dataset',
+                    data: [300, 50, 100, -100],
+                    backgroundColor: [
+                    'rgb(255, 99, 132)',
+                    'rgb(54, 162, 235)',
+                    'rgb(255, 205, 86)',
+                    '#444'
+                    ],
+                    hoverOffset: 4
+                }],
+                labels: [
+                    'Red',
+                    'Blue',
+                    'Yellow',
+                    'Gray'
+                ],
+            },
+        ]
+    ).init();
+</script>
 </html>
